@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="box">
+        <div class="inputBox">
+            <input type="password" id="pswrd" placeholder="Password" onkeyup="checkPassword(this.value)">
+            <span id="toggleBtn"></span>
+        </div>
+        <div class="validation">
+            <ul>
+                <li id="lower"> Pelo menos uma letra minúscula</li>
+                <li id="upper"> Pelo menos uma letra maiúscula</li>
+                <li id="number"> Pelo menos um número</li>
+                <li id="special"> Pelo menos um caracter especial</li>
+                <li id="minimal"> Per pelo menos oito caracteres </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
